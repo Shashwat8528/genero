@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit type</title>
+    <style>
+        *{
+            font-size: 18px;
+        }
+        body{
+            background-color: aqua;
+        }
+        div{
+            border: 5px solid black ;
+            margin-left: 25vw;
+            height: 850px;
+            width: 700px;
+            border-radius: 15px;
+            background-image: linear-gradient(rgb(39, 0, 39),rgb(113, 113, 250));
+        }
+        input{
+            border: 0px solid;
+            border-radius: 15px;
+            background-image: linear-gradient(wheat,white);
+        }
+        table{
+            text-align: center;
+            padding: 25px;
+            
+        }
+        td{
+            padding: 2px;
+        }
+        td.texttype{
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+        select{
+            border: 0px solid;
+            border-radius: 15px;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            text-decoration: dashed;
+            font-size: 50px;
+            border: 0px solid;
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 25px;
+            background-image: linear-gradient(skyblue,white);
+            color: rgb(5, 1, 26);
+        }
+        
+        input.sizingc{
+            width: 25%;
+            height: 25%;
+            border-radius: 5px;
+        }
+        td.check1{
+            width: 100px;
+            height: 100px;
+        }
+        section.p1{
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 80%;
+            margin-left: 10%;
+            background-image: linear-gradient(to bottom right,rgb(97, 1, 121),gray);
+
+        }
+        h2{
+            text-align: center  ;
+            font-size: 30px;
+            border: 2px solid;
+            width: 80%;
+            margin-left: 10%;
+            border-radius: 20px;
+            background-image: linear-gradient(purple,skyblue);
+        }
+        table.fields{
+            margin-left: 20px;
+        }
+        section.p2{
+            text-align: center;
+        }
+        button{
+            background-image: linear-gradient(purple,blue);
+            width: 50%;
+            height: 50px;
+            border: 0px solid;
+            border-radius: 20px;
+            font-size: 30px;
+        }
+        button:hover{
+            color: blueviolet;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>GENERO'23</h1>
+        <table > 
+            <tr>
+                <td class="texttype">
+                    Name
+                </td>
+                <td>
+                    <input type="text" name="" id="">
+                </td>
+                <td class="texttype">
+                    Branch
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">CSE</option>
+                        <option value="">CS</option>
+                        <option value="">CSE-AIML</option>
+                        <option value="">CSE-DS</option>
+                        <option value="">ECE</option>
+                        <option value="">CE</option>
+                        <option value="">Mechanical Engineering</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="texttype">
+                    Year
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                    </select>
+                </td>
+                <td class="texttype">
+                    Section
+                </td>
+                <td>
+                    <input type="text" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                
+            </tr>
+            <tr>
+                <td class="texttype">
+                    Address
+                </td>
+                <td>
+                    <input type="text" name="" id="">
+                </td>
+                <td class="texttype">
+                    Number
+                </td>
+                <td>
+                    <input type="number" name="" id="">
+                </td>
+            </tr>
+        </table>
+        <p class="check1">
+            <section class="p1">
+            <p class="heading">
+                <h2> Select the programs to participate</h2>
+            </p>
+            <table class="fields">
+                <tr>
+                    <td class="texttype">
+                        Game 1
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="">
+                    </td>
+                    <td class="texttype">
+                        Game 2
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="" >
+                    </td>
+                    <td class="texttype">
+                        Game 3
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texttype">
+                        Game 1
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="">
+                    </td>
+                    <td class="texttype">
+                        Game 2
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="" >
+                    </td>
+                    </td>
+                    <td class="texttype">
+                        Game 3
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="texttype">
+                        Game 1
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="">
+                    </td>
+                    <td class="texttype">
+                        Game 2
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="" >
+                    </td>
+                    </td>
+                    <td class="texttype">
+                        Game 3
+                    </td>
+                    <td class="check1">
+                        <input class="sizingc" type="checkbox" name="" id="">
+                    </td>
+                </tr>
+                
+            </table>
+        </section>
+        </p>
+        <section class="p2">
+            <button>Proceed for Payment</button>
+        </section>
+    </div>
+</body>
+</html>
